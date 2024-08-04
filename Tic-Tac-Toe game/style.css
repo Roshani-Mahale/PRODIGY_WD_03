@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url("image.png");
+    background-size: cover;
+}
+
+.mode-container {
+    margin-bottom: 20px;
+}
+
+.board {
+    width: 400px;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+
+.mydiv {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.24);
+    display: inline-flex;
+    border-radius: 15px;
+    border: 1px solid yellow;
+    font-size: 50px;
+    color: red;
+    box-shadow : 0 0 1rem rgba(0,0,0,0.1);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#new-btn {
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+  
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+  
+.msg-container {
+    height: 100vmin;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+  
+.hide {
+    display: none;
+}
